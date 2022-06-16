@@ -10,5 +10,17 @@ _Запрашивает информацию об изменении стату�
 ```git clone https://github.com/Leximor/TgBot.git```
 
 - Установить зависимости
+
 ```pip install -r requirements.txt```
 
+-Ввести свои переменные в .env 
+
+```
+ PRACTICUM_TOKEN = ''
+ TELEGRAM_TOKEN = ''
+ TELEGRAM_CHAT_ID = ''
+```
+
+- Запустить сервер
+
+```python manage.py runserver```
